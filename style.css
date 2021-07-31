@@ -174,3 +174,36 @@ ul li a{
     margin: 35px 20px 35px 20px;
 }
 
+/* ABOUT SECTION */
+#my-image{
+    height:50vh;
+    width: 50%;
+    margin-bottom:150px ;
+
+  
+}
+.about-container{
+    background-color: var(--white-light);
+    height: 50vh;
+    margin-top: 5px;
+}
+.about-text h1{
+    color: var(--main-color);
+    font-weight: bold;
+    font-size:45px ;
+    font-family: 'Gabriela' serif;
+}
+
+.about-text{
+    text-align: center;
+     transform: translate(22% , -190%);
+    color: var(--dark-light);
+    font-size: 35px;
+}
+.about-text h2{
+    color: var(--dark-light);
+    font-weight: 800;
+    font-family: 'Dancing' ;
+}
+
+/

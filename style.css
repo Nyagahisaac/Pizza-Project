@@ -492,3 +492,12 @@ fieldset label.focus {
     font-family: 'Gabriela', serif;
     font-size: 20px;
 }
+/* copyright */
+.copyright{
+    font-size: 40px;
+    font-weight: bold;
+    color: var(--white-light);
+    background-color: var(--dark-light);
+    text-align: center;
+
+}

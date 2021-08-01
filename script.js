@@ -72,3 +72,18 @@ function getPeriperiPriceBySize(sizePizza){
       }
       return periperiPrice[sizePizza];
 }
+$(function () {
+   
+    $("#crustPick").change(function () {
+        var crustValue = $(this).children("option:selected").val();
+        // console.log(crustValue)
+        $('#crustPre').val(crustValue);
+        $('#pre-crust').empty();
+        $('#pre-crust').append(crustValue);
+        
+    });
+
+   
+});
+
+

@@ -446,5 +446,33 @@ fieldset label.focus {
     text-align: center;
 
 }
-
+.blog-text-1 p{
+    background-image: url(/Photos/red.jpg);
+    opacity: 0.9;
+    width: calc((100% /3)- 30px);
+    border: 2px solid var(--dark-light);
+    padding: 30px;
+    font-size: 25px;
+    background-color: var(--white-light);
+    color: var(--white-light);
+    
 }
+.blog-text-2 p{
+    background-image: url(/Photos/taxido.jpg);
+    width: calc((100% /3)- 30px);
+    border: 2px solid var(--dark-light);
+    padding: 30px;
+    font-size: 25px;
+    background-color: var(--white-light);
+    color: var(--white-light);
+}
+.blog-text-3 p{
+    background-image: url(/Photos/girl.jpg);
+    width: calc((100% /3)- 30px);
+    border: 2px solid var(--dark-light);
+    padding: 30px;
+    font-size: 25px;
+    background-color: var(--white-light);
+    color: var(--white-light);
+}
+/

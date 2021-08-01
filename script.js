@@ -90,6 +90,13 @@ $(function () {
         $('#pre-size').append(sizeValue);
     });
 
+    $("#topsPick").change(function(){
+        var topsValue = $(this).children("option:selected").val();
+        $('#topPre').val(topsValue);
+        $('#pre-tops').empty();
+        $('#pre-tops').append(topsValue);
+    });
+
    
 });
 

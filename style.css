@@ -475,4 +475,20 @@ fieldset label.focus {
     background-color: var(--white-light);
     color: var(--white-light);
 }
-/
+/* contact us */
+.contact-us{
+    background-color:var(--dark-light);
+    width: 100% 100%;
+    color: var(--main-color);
+}
+.contact-text{
+    display: flex;
+    justify-content: space-between;
+    font-weight:bolder ;
+    font-family: 'Gabriela', serif;
+}
+.col-md-3{
+    font-weight:bolder ;
+    font-family: 'Gabriela', serif;
+    font-size: 20px;
+}

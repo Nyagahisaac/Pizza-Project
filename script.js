@@ -97,7 +97,12 @@ $(function () {
         $('#pre-tops').append(topsValue);
     });
 
-   
+    $("#updateCart").add(function(){
+        var cartsValue = $(this).children("option:selected").val();
+        console.log(cartsValue)
+        $("#pre-crust").val(cartsValue)
+        $("#pre-cart").append(cartsValue);
+    });
 });
 
 

@@ -44,4 +44,31 @@ function getThincrustPriceBySize(sizePizza){
       }
       return thincrustPrice[sizePizza];
 }
-/
+// TOPPINS
+function getPepperoniPriceBySize(sizePizza){
+    var pepperoniPrice = {
+        "extraLarge": 250 ,
+         "large": 200,
+         "medium": 150,
+         "small": 100
+      }
+      return pepperoniPrice[sizePizza];
+}
+function HawaiianPriceBySize(sizePizza){
+    var hawaiianPrice = {
+        "extraLarge": 200 ,
+         "large": 100,
+         "medium": 100,
+         "small": 50
+      }
+      return hawaiianPrice[sizePizza];
+}
+function getPeriperiPriceBySize(sizePizza){
+    var periperiPrice = {
+        "extraLarge": 200 ,
+         "large": 100,
+         "medium": 100,
+         "small": 50
+      }
+      return periperiPrice[sizePizza];
+}

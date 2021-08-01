@@ -83,6 +83,13 @@ $(function () {
         
     });
 
+    $("#sizePick").change(function (){
+        var sizeValue = $(this).children("option:selected").val();
+        $('#sizePre').val(sizeValue);
+        $('#pre-size').empty();
+        $('#pre-size').append(sizeValue);
+    });
+
    
 });
 

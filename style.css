@@ -420,3 +420,31 @@ fieldset label.focus {
   border-color: black;
 }
 /* BLOG SECTION */
+.blog-text h1{
+    font-weight: bold;
+    color: var(--dark-light);
+    font-family: 'Delius Swash Caps', cursive;
+    font-family: ' Gabriela' serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.col-md-4{
+    
+    justify-content: space-between;
+    width: calc((100% /3)- 30px);
+    border: 0px solid var(--dark-light);
+    padding: 30px;
+    height: 65vh;
+    
+}
+.blog-author-name{
+    font-family: 'Delius Swash Caps', cursive;
+    font-family: ' Gabriela' serif;
+    font-weight: bolder;
+    color: var(--dark-light);
+    text-align: center;
+
+}
+
+}

@@ -97,11 +97,13 @@ $(function () {
         $('#pre-tops').append(topsValue);
     });
 
-    $("#updateCart").add(function(){
-        var cartsValue = $(this).children("option:selected").val();
-        console.log(cartsValue)
-        $("#pre-crust").val(cartsValue)
-        $("#pre-cart").append(cartsValue);
+    $("#preCart").click(function(){
+       var cartPre = $("#topPre").val();
+       var cartSize = $("#sizePre").val();
+       var cartTops = $("#crustPre").val();
+       var quantity = $('#pre-quantity').val()
+       console.log(cartPre + ', '+cartSize + ', ' + cartTops)
+
     });
 });
 

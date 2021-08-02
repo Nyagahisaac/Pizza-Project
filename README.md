@@ -14,7 +14,7 @@ Jquery functions used to return amount and products after the user inputs inform
 The page basically runs by use of HTML , CSS, JAVASCRIPT and JQUERY.
 
 # LINKS
-
+https://Nyagahisaac.github.io/Pizza-Project/
 # CONTACT
 Nyagah isaac
 Email:nyagahisaac@gmail.com

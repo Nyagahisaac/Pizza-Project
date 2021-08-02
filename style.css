@@ -438,6 +438,10 @@ fieldset label.focus {
     height: 65vh;
     
 }
+#cart{
+    background-color: #EEEEEE;
+    color: var(--black);
+}
 .blog-author-name{
     font-family: 'Delius Swash Caps', cursive;
     font-family: ' Gabriela' serif;
@@ -454,7 +458,7 @@ fieldset label.focus {
     padding: 30px;
     font-size: 25px;
     background-color: var(--white-light);
-    color: var(--white-light);
+    color: var(--dark-light);
     
 }
 .blog-text-2 p{
@@ -463,8 +467,8 @@ fieldset label.focus {
     border: 2px solid var(--dark-light);
     padding: 30px;
     font-size: 25px;
-    background-color: var(--white-light);
-    color: var(--white-light);
+    background-color: var(--whitelight);
+    color: var(--dark-light);
 }
 .blog-text-3 p{
     background-image: url(/Photos/girl.jpg);
@@ -473,7 +477,7 @@ fieldset label.focus {
     padding: 30px;
     font-size: 25px;
     background-color: var(--white-light);
-    color: var(--white-light);
+    color: var(--dark-light);
 }
 /* contact us */
 .contact-us{

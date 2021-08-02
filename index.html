@@ -86,7 +86,7 @@
                 <li class="active"><a data-toggle="tab" href="#size">SIZE</a></li>
                 <li><a data-toggle="tab" href="#crust">CRUST</a></li>
                 <li><a data-toggle="tab" href="#toppins">TOPPINS</a></li>
-                <li><a data-toggle="tab" href="#cart">SHOPPING CART</a></li>
+                <li><a data-toggle="tab" href="#cartTab">SHOPPING CART <span class="badge badge-pill bg-primary" id="shopNo"></span></a></li>
             </ul>
             <div class="bg-primary"
                 style="display: flex;height: 50px;border-radius: 3%; padding: 5px;margin-top: 20px;justify-content: space-between;">
@@ -108,7 +108,7 @@
                 </div>
                 <div class="">
                     Qty <br>
-                    <input type="text" value="1" placeholder="Qty" style="width: 40px;height: 20px;" id="pre-quantity"
+                    <input type="text" value="1" placeholder="Qty" name="quantity" style="width: 40px;height: 20px;" id="pre-quantity"
                         class="form-control">
                 </div>
                 <div class="">
@@ -163,7 +163,7 @@
                         <label class="control-label">SIZE</label>
                         <select id="sizePick" name="sizeName" class="form-control">
                             <option value="">Choose Size...</option>
-                            <option value="Extra large">Extra Large</option>
+                            <option value="ExtraLarge">Extra Large</option>
                             <option value="Large">Large</option>
                             <option value="Medium">Medium</option>
                             <option value="Small">Small</option>
@@ -179,7 +179,7 @@
                                 <img src="/Photos/large.jpg" alt="">
                                 <h3>Stuffed</h3>
                             </div>
-                            <div class="menu-item-price"></div>
+                            <div class="menu-item-price">$250</div>
 
                         </div>
                         <div class="menu-item">
@@ -217,14 +217,14 @@
                     </div>
 
                 </div>
-                <div class="tab-panel fade" id="toppins">
+                <div class="tab-pane fade" id="toppins">
                     <div class="row menu-tab-content" id="toppins">
                         <div class="menu-item">
                             <div class="menu-item-title">
                                 <img src="/Photos/peperoni.jpeg" alt="">
                                 <h3>Pepperoni</h3>
                             </div>
-                            <div class="menu-item-price">
+                            <div class="menu-item-price">$200
                             </div>
                         </div>
                         <div class="menu-item">
@@ -232,14 +232,14 @@
                                 <img src="/Photos/hawaian.jpeg" alt="">
                                 <h3>Hawaiian</h3>
                             </div>
-                            <div class="menu-item-price"> </div>
+                            <div class="menu-item-price">$150 </div>
                         </div>
                         <div class="menu-item">
                             <div class="menu-item-title">
                                 <img src="/Photos/large.jpg" style="max-width: 100px;" alt="">
                                 <h3>Peri peri</h3>
                             </div>
-                            <div class="menu-item-price"> </div>
+                            <div class="menu-item-price"> $100</div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -252,6 +252,25 @@
                             
                         </select>
                     </div>
+                </div>
+                <div class="tab-pane fade" id="cartTab">
+                      <table  id="cart-table" class="table table-sm table-condensed table-hover mt-5" style="background-color: white;">
+                          <thead class="bg-light">
+                            <tr>
+                                <th>Size</th>
+                                <th>Crust</th>
+                                <th>Toppings</th>
+                                <th>Quantity</th>
+                                <th>Ammount</th>
+                            </tr>
+                          </thead>
+                          <tbody id="cart-table-body">
+
+                          </tbody>
+                        </table>
+                        <div class="card p-2" style="text-align: right;">
+                            <p>Total Amount: <span id="TotalPrice"></span></p>
+                        </div>
                 </div>
             </div>
         </div>
@@ -287,7 +306,7 @@
                 <div class="col-md-4">
                     <div class="blog-author">
                         <div class="blog-author-name">
-                            <h2>Reddington</h2>
+                            <h2>Claus</h2>
                             <span>Food specialist</span>
                         </div>
                     </div>
@@ -307,7 +326,7 @@
                 <div class="col-md-4">
                     <div class="blog-author">
                         <div class="blog-author-name">
-                            <h2>Reddington</h2>
+                            <h2>Demion</h2>
                             <span>Food specialist</span>
                         </div>
                     </div>

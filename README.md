@@ -28,7 +28,7 @@ Copyright (c) [IZOOH]
 
 ​
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (Akan Name Generator), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Portfolio, and to permit persons to whom the Portfolio is furnished to do so, subject to the following conditions:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (PIZZA INN WEBSITE), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Portfolio, and to permit persons to whom the Portfolio is furnished to do so, subject to the following conditions:
 
 ​
 

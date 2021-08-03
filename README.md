@@ -7,6 +7,25 @@ NYAGAH ISAAC
 # DESCRIPTION
 Am Nyagah Isaac , and this is my PIZZA website. Basically what the site does it takes the input of the user and according to the various variety and size he choose it calculates his order and prompts his amount .it has the about section that tells about the website . And incase of Delivery and the user can input his details and pin location for delivery.
 
+#BDD
+The website is expected to function as follows:Give the user somewhere to choose the size of pizza they want.
+Allow the user to input the type of crust they want.Different crust may have different sizes.
+Allow the user to decide the toppings they want.
+If the user wants a delivery,prompt the user to enter location details and price for delivery.
+On checkout,show the user the total amount payable.
+Installation/Setup instruction
+Download a zip file of the project.
+Extract the files
+Open index.html in a browser
+Link to live website
+Technologies Used
+Javascript
+Jquery
+HTML5
+css
+Markdown Syntax
+Live page
+https://nyagahisaac.github.io/pizzaproject/
 # Instruction Set UP
 The project was basically built with HTML that entales the whole page , then CSS was used to style the sections and make the page look pleasing to the user.
 Then added images where Jquery was used to add some effects to respective images and make them interactive.
